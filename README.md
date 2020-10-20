@@ -1,3 +1,50 @@
+
+
+
+
+Git pull
+- common
+-
+-
+-
+- Generate Maven artifacts (BUILD_COMMAND)
+- asr-send/content
+- asr-send/gateway
+
+- PMD/Checklist/Findbugs...
+
+
+- Move RPM to server location
+
+- Publish RPM to Nexus Repo
+
+-
+
+============
+Docker Host
+
+Prerequisites:
+- should be same in OS/CPU/Memory/Storage like existing on-premise volume
+- ..
+- ..
+
+
+
+
+Dockerfile
+- Base OS
+- Install JDK, Tomcat, (identify exact version). .....
+- Pull from Nexus Repo
+- ....
+- ....
+- ....
+- Map host path volume mounting for
+- Port forwarding
+
+
+
+
+
 **Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**
 
 When you're done, you can delete the content in this README and update the file with details for others getting started with your repository.
